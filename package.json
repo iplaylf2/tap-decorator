@@ -1,0 +1,51 @@
+{
+  "name": "tapio",
+  "version": "1.0.0",
+  "description": "Use a Tap decorator to observe any function without interfering.",
+  "keywords": [
+    "tap",
+    "rxjs",
+    "decorator",
+    "typescript"
+  ],
+  "homepage": "https://github.com/iplaylf2/tapio#readme",
+  "bugs": {
+    "url": "https://github.com/iplaylf2/tapio/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "i-play-lf2",
+  "main": "tapio.js",
+  "types": "tapio.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iplaylf2/tapio.git"
+  },
+  "scripts": {
+    "build": "rollup -c",
+    "publish-npm": "pnpm run build && npm publish ./dist"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "^2.1.4",
+    "@eslint/js": "^8.56.0",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-typescript": "^11.1.5",
+    "@typescript-eslint/eslint-plugin": "^6.15.0",
+    "@typescript-eslint/parser": "^6.15.0",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-config-standard-with-typescript": "^43.0.0",
+    "eslint-plugin-import": "^2.29.1",
+    "eslint-plugin-n": "^16.5.0",
+    "eslint-plugin-prettier": "^5.1.2",
+    "eslint-plugin-promise": "^6.1.1",
+    "prettier": "^3.1.1",
+    "rollup": "^4.9.1",
+    "rollup-plugin-clear": "^2.0.7",
+    "rollup-plugin-copy": "^3.5.0",
+    "typescript": "^5.3.3"
+  },
+  "peerDependencies": {
+    "rxjs": "^7.8.1"
+  }
+}
