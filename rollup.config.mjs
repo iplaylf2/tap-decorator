@@ -5,7 +5,7 @@ import typescript from "@rollup/plugin-typescript";
 const outputDir = "dist";
 
 export default {
-  input: ["src/tapio.ts"],
+  input: ["src/tap.ts"],
   output: {
     dir: outputDir,
     format: "cjs",
